@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cfdef53-e181-4048-bcbc-69abab5e8a5f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/pyspark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app_basic.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app_display_multiple_images.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/complete_display_image.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/gallery.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app_display_image.py" afterPath="$PROJECT_DIR$/src/flask_app_for_project.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/complete.html" afterPath="$PROJECT_DIR$/src/templates/complete.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/upload.html" afterPath="$PROJECT_DIR$/src/templates/upload.html" />
-    </list>
+    <list default="true" id="1cfdef53-e181-4048-bcbc-69abab5e8a5f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
