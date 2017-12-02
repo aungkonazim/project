@@ -9,10 +9,14 @@
 <form id="upload-form" action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
 
     <strong>Files:</strong><br>
-    <input id="file-picker" type="file" name="file" accept="image/*" multiple>
+    <input id="file-picker" type="file" name="file" accept="text/*" multiple>
+    <p> Insert The number of clusters
+    <input id = "1" type="number" name="projectFilepath" placeholder="Number of Clusters">
+    </p>
     <div id="msg"></div>
-    <input type="submit" value="Upload!" id="upload-button">
+    <input type="submit" value="Upload and Start Project" id="upload-button">
 </form>
+
 </body>
 <script>
 
@@ -25,7 +29,7 @@
         //koala.jpg, koala.JPG substring(index) lastIndexOf('a') koala.1.jpg
             var ext= input.files[i].name.substring(input.files[i].name.lastIndexOf('.')+1).toLowerCase()
 
-            if ((ext == 'jpg') || (ext == 'png'))
+            if ((ext == 'txt') || (ext == 'txt'))
             {
                 $("#msg").text("Files are supported")
             }
